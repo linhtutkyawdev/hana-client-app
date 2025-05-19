@@ -1,0 +1,45 @@
+const tintColorLight = '#00A86B'; // Primary Green
+const tintColorDark = '#00C17C'; // Lighter Green for dark mode
+
+export default {
+  light: {
+    text: '#0C1013',
+    background: '#F9FAFB',
+    tint: tintColorLight,
+    tabIconDefault: '#8E9AA0',
+    tabIconSelected: tintColorLight,
+    card: '#FFFFFF',
+    border: '#E5E7EB',
+    notification: '#FF5252',
+  },
+  dark: {
+    text: '#F9FAFB',
+    background: '#0C1013',
+    tint: tintColorDark,
+    tabIconDefault: '#8E9AA0',
+    tabIconSelected: tintColorDark,
+    card: '#1C2127',
+    border: '#2E3338',
+    notification: '#FF5252',
+  },
+  primary: '#00A86B', // Hana Green
+  primaryDark: '#008C59',
+  primaryLight: '#CCEFE2',
+  secondary: '#076AFF',
+  secondaryDark: '#0055D6',
+  secondaryLight: '#D9E7FF',
+  text: '#0C1013',
+  textSecondary: '#4D5D69',
+  textTertiary: '#8E9AA0',
+  background: '#F9FAFB',
+  backgroundSecondary: '#EBEEF0',
+  white: '#FFFFFF',
+  border: '#E5E7EB',
+  borderStrong: '#CFD3D7',
+  success: '#00B07A',
+  warning: '#FFB020',
+  error: '#FF5252',
+  info: '#76A9FF',
+  transparent: 'transparent',
+  shadow: 'rgba(12, 16, 19, 0.08)',
+};
